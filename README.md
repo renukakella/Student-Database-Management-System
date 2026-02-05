@@ -1,6 +1,7 @@
 **Student Database Management System (Python)**
 
 This is a beginner-level Python mini project.
+
 **Features:**
 - Add, Update, Delete students
 - View all students
