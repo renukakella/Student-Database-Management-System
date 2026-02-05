@@ -35,6 +35,7 @@ while True:
                 "marks":marks
             }
             print("-"*10, "Student Added Sucessfully!", "-"*10)
+            
     elif choice == 2:
         # Delete student logic
         student_id = input("Enter Student ID: ").strip().lower()
@@ -43,6 +44,7 @@ while True:
             print("-"*10, "Student Deleted Sucessfully", "-"*10)
         else:
             print("-"*10, "Student Not Found", "-"*10)
+            
     elif choice == 3:
         # Update student logic
         student_id = input("Enter Student ID to Update: ").strip().lower()
@@ -73,6 +75,7 @@ while True:
                 print("-"*10, "Invalid Choice", "-"*10)
         else:
             print("-"*10, "Student Not Found", "-"*10)
+            
     elif choice == 4:
         # View student logic
         if not students:
@@ -84,6 +87,7 @@ while True:
                 print("Age: ",v["age"])
                 print("Marks: ",v["marks"])
                 print("-"*20)
+                
     elif choice == 5:
         # Find Topper
         if not students:
@@ -100,13 +104,16 @@ while True:
             print("Student Name: ",students[top_id]['name'])
             print("Student Marks: ",students[top_id]['marks'])
             print("-"*20)
+            
     elif choice == 6:
         # Exit
         print("-"*20, "Thank You", "-"*20)
         print()
         break
+        
     else:
         # invalid
         print("-"*10, "Invalid Choice", "-"*10)
         
+
 
