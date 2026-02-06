@@ -1,4 +1,4 @@
-**Student Database Management System (Python)**
+# Student Database Management System (Python)
 
 ## Description
 This repository contains two versions of a simple console-based Student Management System in Python:
