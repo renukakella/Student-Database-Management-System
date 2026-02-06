@@ -1,23 +1,26 @@
 **Student Database Management System (Python)**
 
-This is a beginner-level Python mini project.
+## Description
+This repository contains two versions of a simple console-based Student Management System in Python:
 
-**Features:**
-- Add, Update, Delete students
-- View all students
-- Find topper
+1. **Basics Implementation**:  
+   - Without functions  
+   - Uses direct input, loops, and dictionaries  
+   - Good for understanding step-by-step flow
 
-**Concepts used:**
-- Python dictionaries
-- Loops
-- Conditional statements
-- Input validation
+2. **Function-Based Implementation**:  
+   - Uses reusable functions for adding, deleting, updating, and viewing students  
+   - Includes input validation for age and marks  
+   - No global `students` dependency for add/delete/update functions  
+   - Easier to maintain and extend
 
-This project was built while learning Python fundamentals.
+## Features
+- Add student (ID, Name, Age, Marks)  
+- Update student details  
+- Delete student by ID  
+- View all students  
+- Find the topper (highest marks)  
+- Input validation:
+  - Age > 0  
+  - Marks between 0-100  
 
-Initial student management system using Python basics
-
-**Future Improvements:**
-- Convert code to functions
-- Add file handling
-- Add search & sort features
